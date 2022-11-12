@@ -2,10 +2,212 @@
     margin: 0;
     padding: 0;
 }
+@media (min-width:3000px){
+    .fotography{
+          padding-top: 2500px;
+      }
+      .bar{
+        background-color: aqua;}
+}
+@media (min-width:2500px) and (max-width:3000px)  {
+    .fotography{
+          padding-top: 1700px;
+      }
+      .bar{
+        background-color: aqua;}
+      .header_ground21{
+        margin-top: 160px;
+    }
+}
+@media (min-width:1750px) and (max-width:2500px)  {
+    .fotography{
+          padding-top: 2300px;
+      }
+      .bar{
+        background-color: aqua;}
+      .header_ground21{
+        margin-top: 100px;
+    }
+}
+
+@media (min-width:990px) and (max-width:1750px){
+    .fotography{
+          padding-top: 900px;
+      }
+      .bar{
+        background-color: aqua;}
+      .header_ground21{
+        margin-top: 80px;
+    }
+}
+@media (min-width:750px) and (max-width:990px){
+    .fotography{
+          padding-top: 600px;
+      }
+      .bar{
+        background-color: aqua;}
+      .header_ground21{
+        margin-top: 40px;
+    }
+      .photo{
+      flex-direction: column;
+      text-align: center;
+     
+    }
+
+      .photo_under{
+       
+      flex-direction: column;
+      padding-left: 250px;
+    }
+    .photo_under2{
+    
+        flex-direction: column;
+        padding-left: 250px;
+      }
+     
+      .foto2{
+        padding-top: 55px;
+        display: contents;
+        
+    }
+}
+@media (min-width:400px) and (max-width:750px) {
+    .bezbashenie1{
+        margin-left: 3%;
+    }
+    .header_ground21{
+        margin-top: 10px;
+    }
+    .bar{
+        background-color: aqua;
+    }
+    .middle{
+        margin-top: 50px;
+    }
+    .fotography{
+    padding-top: 550px;
+}
+.photo{
+    
+    min-width: 450px;
+flex-direction: column;
+text-align: center;
+
+}
+
+.photo_under{
+ margin-left: 55px;
+flex-direction: column;
+}
+.photo_under2{
+margin-left: 55px;
+  flex-direction: column;
+}
+
+.foto2{
+    
+  padding-top: 55px;
+  display: contents;
+  
+}
+.fotography{
+   min-width: 450px;
+  }
+}
+@media (min-width:360px) and (max-width:400px) {
+    .bezbashenie1{
+        margin-left: 10%;
+    }
+    .header_ground21{
+        margin-top: 10px;
+    }
+    .bar{
+        background-color: aqua;
+    }
+    .middle{
+        margin-top: 50px;
+    }
+    .fotography{
+    padding-top: 550px;
+}
+.photo{
+    
+    min-width: 450px;
+flex-direction: column;
+text-align: center;
+
+}
+
+.photo_under{
+ margin-left: 55px;
+flex-direction: column;
+}
+.photo_under2{
+margin-left: 55px;
+  flex-direction: column;
+}
+
+.foto2{
+    
+  padding-top: 55px;
+  display: contents;
+  
+}
+.fotography{
+    
+   min-width: 450px;
+  }
+}
+@media (min-width:320px) and (max-width:360px) {
+    .header_ground21{
+        margin-top: 10px;
+    }
+    .bezbashenie1{
+        margin-left: 20%;
+    }
+    .bar{
+        background-color: aqua;
+    }
+    .middle{
+        margin-top: 50px;
+    }
+    .fotography{
+    padding-top: 550px;
+}
+.photo{
+    
+    min-width: 450px;
+flex-direction: column;
+text-align: center;
+
+
+}
+
+.photo_under{
+ margin-left: 55px;
+flex-direction: column;
+}
+.photo_under2{
+margin-left: 55px;
+  flex-direction: column;
+}
+
+.foto2{
+    
+  padding-top: 55px;
+  display: contents;
+  
+}
+.fotography{
+   min-width: 450px;
+  }
+}
+
 
 .video{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     object-fit: cover;
     object-position: center;
@@ -15,7 +217,7 @@
    
    
     width: 32px;
-    height: 21px;
+   
 }
 .top_info{
     display: flex;
@@ -58,17 +260,18 @@
     text-decoration: none;
     margin-right: 32px;
 }
-.bezbashenie{
+
+.bezbashenie1{
     display: flex;
     position: absolute;
-    
-    text-align: center;
-margin-left: 20%;
-    margin-top: 250px;
-}
-.bezbashenie1{
+    flex-direction: column;
+   
     text-align: center;
     color: antiquewhite;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
 }
 .text_in_bezbashenie{
@@ -76,6 +279,7 @@ margin-left: 20%;
     font-family: 'Marck Script', cursive;
     margin-bottom: 32px;
     font-size: xxx-large;
+    margin-top: 100px;
 }
 .text_in_bezbashenie1{
     max-width: 500px;
@@ -90,18 +294,21 @@ margin-left: 20%;
     color: antiquewhite;
     text-decoration: none;
     margin-bottom: 45px;
+    
 }
 .live{
     margin-top: 65px;
 
 }
 .fotography{
-    padding-top: 680px;
+    background: url(photo/fon5.jpg);
+    
     text-align: center;
     font-family: 'Oswald', sans-serif;
 
 }
 .section-g {
+    
     height: 600px;
     
     position: relative;
@@ -135,7 +342,7 @@ margin-left: 20%;
       width: 30px;
       margin: 6px;
       cursor: pointer;
-      background-color: #ffffff;
+      
       opacity: .5;
       border-radius: 10px;
       transition: all .4s ease;
@@ -182,18 +389,25 @@ margin-left: 20%;
     
     font-family: 'Oswald', sans-serif;
     font-size: xx-large;
+    color: antiquewhite;
    
   }
   .footer_logo{
     width: 150px;
-    height: 100px;
+   
   }
   .footer{
+    min-width: 450px;
+    margin-top: -2px;
+    background: url(photo/fon5.jpg);
+    
+background-size: cover;
     border: 1px;
     max-width: 100%;
-    
+    padding-bottom: 35px;
   }
   .logotipe{
+   
     text-align: center;
     padding-top: 36px;
     padding-bottom: 30px;
@@ -209,8 +423,53 @@ margin-left: 20%;
 .textyal{
     padding-top: 25px;
     padding-bottom: 45px;
+    color: antiquewhite;
     
 }
-.rools{
+.photo_under{
+   
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.foto1{
+margin: 15px;
+    width: 300px;
+    border-radius: 20px;
+}
+.photo_under2{
     
+ 
+    display: flex;
+    justify-content: space-around;
+}
+.foto2{
+    padding-top: 35px;
+    width: 300px;
+    border-radius: 20px;
+}
+.photo{
+   margin-top: -2px;
+    background: url(photo/fon5.jpg);
+  
+    padding-top: 35px;
+    height: 100%;
+   
+    width: 100%;
+}
+
+.logo{
+    border-radius: 50px;
+}
+.rools{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: antiquewhite;
+}
+.text_logo{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.last{
+    padding-bottom: 35px;
 }
